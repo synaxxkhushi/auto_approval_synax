@@ -1,0 +1,51 @@
+{
+    "name": "Auto-Approved-Bot",
+    "description": "Iam Auto-Approved-Bot @synaxnetwork",
+    "keywords": [
+        "Auto",
+        "Approved",
+        "Group",
+        "Invite",
+        "Link",
+        "Bot"
+    ],
+    "Channel": "https://t.me/synaxnetwork",
+    "Owner": "https://t.me/coder_s4nax",
+    "Giveway": "https://t.me/synaxxgiveway",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": "20515794"
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": "da128bd223a333f5bde8dc1359db4609"
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": "6788557765:AAE9UP98PPrcu9Ew8M_wXoMAR0SPlWIrKl4"
+        },
+        "CHAT_ID": {
+            "description": "Working Group ID @MT_ID_Bot",
+            "value": "-1002132398644"
+        },
+        "APPROVED_WELCOME": {
+            "description": "APPROVED_WELCOME On Or Off",
+            "value": "on"
+        },
+        "APPROVED_WELCOME_TEXT": {
+            "description": "APPROVED_WELCOME_TEXT : Welcome Text",
+            "value": "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved"
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
